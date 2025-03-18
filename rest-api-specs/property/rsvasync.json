@@ -2990,7 +2990,6 @@
           "$ref": "#/definitions/advanceCheckInType"
         },
         "userDefinedFields": {
-          "description": "A common type used to hold user defined fields(UDFs). ",
           "$ref": "#/definitions/userDefinedFieldsType"
         }
       }
@@ -4605,7 +4604,6 @@
           "type": "boolean"
         },
         "benefits": {
-          "description": "benefits for the membership.",
           "$ref": "#/definitions/benefitsType"
         },
         "tierAdministration": {
@@ -7996,7 +7994,6 @@
           "maxLength": 20
         },
         "reservationIndicators": {
-          "description": "Indicators of additional information attached to the reservation",
           "$ref": "#/definitions/indicatorsType"
         },
         "roomStatus": {
@@ -8012,7 +8009,6 @@
           "$ref": "#/definitions/sourceOfSaleType"
         },
         "waitlist": {
-          "description": "Information regarding why reservation has been/was waitlisted. This could hold information as history even if reservation is not in Waitlist status anymore.",
           "$ref": "#/definitions/waitlistResType"
         },
         "queue": {
@@ -8020,11 +8016,9 @@
           "$ref": "#/definitions/reservationQueueInformationType"
         },
         "housekeeping": {
-          "description": "Information regarding housekeeping for this reservation.",
           "$ref": "#/definitions/resHousekeepingType"
         },
         "cashiering": {
-          "description": "Holds cashiering related information for the reservation.",
           "$ref": "#/definitions/resCashieringType"
         },
         "taxType": {
@@ -8544,7 +8538,6 @@
           "$ref": "#/definitions/uniqueID_Type"
         },
         "routingInstructions": {
-          "description": "Set of preconfigured transaction codes.",
           "$ref": "#/definitions/profileRoutingInstructionsType"
         },
         "taxType": {
@@ -11079,7 +11072,6 @@
       ]
     },
     "benefits": {
-      "description": "benefits for the membership.",
       "$ref": "#/definitions/benefitsType"
     },
     "benefitsType": {
@@ -11181,7 +11173,6 @@
           "type": "boolean"
         },
         "benefits": {
-          "description": "benefits for the membership.",
           "$ref": "#/definitions/benefitsType"
         },
         "tierAdministration": {
@@ -11556,7 +11547,6 @@
     },
     "reservationPaymentMethodsType": {
       "type": "array",
-      "description": "Defines reservation payment methods.",
       "maxItems": 4000,
       "items": {
         "$ref": "#/definitions/reservationPaymentMethodType"
@@ -12838,38 +12828,30 @@
       }
     },
     "reservationPaymentMethods": {
-      "description": "A collection of Payment Method objects.",
       "$ref": "#/definitions/reservationPaymentMethodsType"
     },
     "routingInstructions": {
-      "description": "Set of Routing Instructions.",
       "$ref": "#/definitions/routingInfoListType"
     },
     "reservationPolicies": {
-      "description": "A collection of Cancellation Penalties objects.",
       "$ref": "#/definitions/reservationPoliciesType"
     },
     "cashiering": {
-      "description": "Holds cashiering related information for the reservation.",
       "$ref": "#/definitions/resCashieringType"
     },
     "housekeeping": {
-      "description": "Holds rooms housekeeping information.",
       "$ref": "#/definitions/resHousekeepingType"
     },
     "extSystemSync": {
       "type": "boolean"
     },
     "userDefinedFields": {
-      "description": "Collections of user defined fields.",
       "$ref": "#/definitions/userDefinedFieldsType"
     },
     "reservationIndicators": {
-      "description": "Indicators of additional information attached to the reservation",
       "$ref": "#/definitions/indicatorsType"
     },
     "waitlist": {
-      "description": "Information regarding why reservation has been/was waitlisted. This could hold information as history even if reservation is no more in Waitlist status.",
       "$ref": "#/definitions/waitlistResType"
     },
     "cancellation": {
@@ -12899,7 +12881,6 @@
       }
     },
     "catering": {
-      "description": "Catering event information if reservation is associated with the catering event.",
       "$ref": "#/definitions/cateringResInfoType"
     },
     "vIPStatusType": {
@@ -13213,11 +13194,9 @@
           }
         },
         "reservationPaymentMethods": {
-          "description": "A collection of Payment Method objects.",
           "$ref": "#/definitions/reservationPaymentMethodsType"
         },
         "cashiering": {
-          "description": "Holds cashiering related information for the reservation.",
           "$ref": "#/definitions/resCashieringType"
         },
         "extSystemSync": {
@@ -13244,7 +13223,6 @@
           "type": "boolean"
         },
         "userDefinedFields": {
-          "description": "Collections of user defined fields.",
           "$ref": "#/definitions/userDefinedFieldsType"
         },
         "fixedCharges": {
@@ -13271,7 +13249,6 @@
           "$ref": "#/definitions/hotelReservationType"
         },
         "routingInstructions": {
-          "description": "Contains the routing instructions of the reservation.",
           "$ref": "#/definitions/routingInfoListType"
         },
         "roomingListSequence": {

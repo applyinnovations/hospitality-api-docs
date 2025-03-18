@@ -15512,7 +15512,6 @@
           "$ref": "#/definitions/rateCodes"
         },
         "roomTypes": {
-          "description": "List of room types for which the range update has to be applied.",
           "$ref": "#/definitions/roomTypes"
         },
         "rateAmounts": {
@@ -15621,7 +15620,6 @@
       }
     },
     "roomTypes": {
-      "description": "List of room types.",
       "$ref": "#/definitions/roomTypeListType"
     },
     "roomTypeListType": {
